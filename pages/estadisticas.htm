@@ -5,70 +5,64 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>COLOMBIA ELIGE 2022</title>
-    
+
+    <!--Estilos aplicados-->
+    <link href="../assets/css/main.css" rel="stylesheet"><!--hoja de estilos principal-->
+    <link href="../pages/css/estilo.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><!--hoja de estilos de google para las fuentes-->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><!--hoja de estilos de google para las fuentes-->
+    <link href="https://fonts.googleapis.com/css2?family=Ruthie&display=swap" rel="stylesheet"><!--hoja de estilos de google para las fuentes-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"><!--bootstrap-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
-
-
 </head>
 <style>
-table {
-    border-collapse: collapse;
-    
-  }
-  thead {
-      background-color: cornflowerblue;
-  }
 
   th, td {
-    text-align: left;
+    text-align: center;
     padding: 8px;
     font-family: Arial, Helvetica, sans-serif;
   }
   
-  tr:nth-child(even) {
-    background-color: #D6EEEE;
-  }
   </style>
 <body>
-    <header style="height: 300px;background: URL(../assets/img/back.jpg);">
-        <center>
-            <br><br><br>
-            <p style="font-size:40px;font-weight:800;font-family: Arial, Helvetica, sans-serif;">
-                &nbsp;¡COLOMBIA ELIGE 2022!
-                <img src="../assets/img/bandera.png" width="65" height="65" alt="Bandera" title="Colombia" />
+    <div class="banner"></div>
+    <div>
+        <header><br><br>
+                <p class="bannerText">
+                    &nbsp;¡Colombia Elige 2022!
+                    <img src="../assets/img/bandera.png" width="65" height="65" alt="Bandera" title="Colombia" />
+                </p>
+                <center><p class="bannerText2"><strong>
+                    En éste espacio podrá informarse sobre la participación e impacto territorial de los candidatos en las próximas elecciones presidenciales en Colombia en el 2022.</strong>
+                </p></center>
+                
             </p>
-        </center>
-        <p>
-            <center>
-                <h3 style="font-family: Arial, Helvetica, sans-serif;">En éste espacio podrá informarse sobre la participación e impacto territorial de los <br>
-                    candidatos en las próximas elecciones presidenciales en Colombia en el 2022.
-                </h3>
-            </center>
-        </p>
-    </header>
+        </header>
+    </div>
 
-        <ul class="nav nav-pills justify-content-center">
-            <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="../index.htm"><font size="4px">Candidatos</font></a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link active" href=""><font size="4px">Estadísticas</font></a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="../pages/registro.htm"><font size="4px">Registro</font></a>
-            </li>
-            </ul>
+    
+      <ul class="nav nav-pills justify-content-center">
+        <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="../index.htm"><font size="4px">Candidatos</font></a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="../pages/estadisticas.htm"><font size="4px">Estadísticas</font></a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link active" href=""><font size="4px">Registro</font></a>
+        </li>
+        </ul>
 
     <body>
 
         <main class="container">
             <div class="row">
                <!--columna izquierda-->
-               <did class="col-12 col-lg-5">
+               <div class="col-12 col-lg-5">
                     <h2>Mapa Por Departamentos</h2>
                     
-                    <did class="col-12">
-                        <did class="mapadiv">
+                    <div class="col-12">
+                        <div class="mapadiv">
                             <svg version="1.2" viewbox="0 0 1000 1195" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M10.5 640.1l0.2 0.9-0.6 0.5-0.4 0-0.8 0.7-0.4 0.1-0.3-0.3 0.5-0.8 0.5-0.3 0-0.6 0.4-0.2 0.9 0z" id="COL99" name="">
                                 </path>
@@ -178,10 +172,10 @@ table {
                                 <circle cx="437.3" cy="870.9" id="2">
                                 </circle>
                                </svg> 
-                        </did>
-                   </did>
+                        </div>
+                   </div>
                     
-               </did>
+               </div>
 
                <!--columna derecha-->
                <div class="col-12 col-lg-7 ">
@@ -190,9 +184,9 @@ table {
                      </h2>
                     <p>El objetivo de la siguiente tabla es proporcionar un análisis cuantitativo de los resultados electorales 2022, tomando como insumo los votos por región sujetos a escrutinio.</p>
                    
-                    <did class="row">
+                    <div class="row">
                         <div class="col-12 col-lg-2 border bg-primary"></div>
-                            <did class="row">
+                            <div class="row">
                                 <div class="col-2  text-primary border">REGIÓN</div>
                                 <div class="col-2  border">FAJARDO</div>
                                 <div class="col-1  border">PETRO</div>
@@ -200,9 +194,9 @@ table {
                                 <div class="col-2  border">GAVIRIA</div>
                                 <div class="col-2  border">FRANCIA</div>
                                 <div class="col-1  border">IVÁN</div>
-                            </did>
+                            </div>
 
-                            <did class="row">
+                            <div class="row">
                                 <div class="col-2  text-primary border">Caribe</div>
                                 <div class="col-2  border">16%</div>
                                 <div class="col-1  border">14%</div>
@@ -210,9 +204,9 @@ table {
                                 <div class="col-2  border">16%</div>
                                 <div class="col-2  border">18%</div>
                                 <div class="col-1  border">17%</div>
-                            </did>
+                            </div>
 
-                            <did class="row">
+                            <div class="row">
                                 <div class="col-2  text-primary border">Andina</div>
                                 <div class="col-2  border">16%</div>
                                 <div class="col-1  border">14%</div>
@@ -220,9 +214,9 @@ table {
                                 <div class="col-2  border">16%</div>
                                 <div class="col-2  border">18%</div>
                                 <div class="col-1  border">17%</div>
-                            </did>
+                            </div>
 
-                            <did class="row">
+                            <div class="row">
                                 <div class="col-2  text-primary border">Pacífico</div>
                                 <div class="col-2  border">16%</div>
                                 <div class="col-1  border">14%</div>
@@ -230,9 +224,9 @@ table {
                                 <div class="col-2  border">16%</div>
                                 <div class="col-2  border">18%</div>
                                 <div class="col-1  border">17%</div>
-                            </did>
+                            </div>
 
-                            <did class="row">
+                            <div class="row">
                                 <div class="col-2  text-primary border">Orinoquía</div>
                                 <div class="col-2  border">16%</div>
                                 <div class="col-1  border">14%</div>
@@ -240,9 +234,9 @@ table {
                                 <div class="col-2  border">16%</div>
                                 <div class="col-2  border">18%</div>
                                 <div class="col-1  border">17%</div>
-                            </did>
+                            </div>
 
-                            <did class="row">
+                            <div class="row">
                                 <div class="col-2  text-primary border">Amazonía</div>
                                 <div class="col-2  border">16%</div>
                                 <div class="col-1  border">14%</div>
@@ -250,9 +244,9 @@ table {
                                 <div class="col-2  border">16%</div>
                                 <div class="col-2  border">18%</div>
                                 <div class="col-1  border">17%</div>
-                            </did>
+                            </div>
 
-                            <did class="row">
+                            <div class="row">
                                 <div class="col-2  text-primary border">Insular</div>
                                 <div class="col-2  border">16%</div>
                                 <div class="col-1  border">14%</div>
@@ -260,11 +254,11 @@ table {
                                 <div class="col-2  border">16%</div>
                                 <div class="col-2  border">18%</div>
                                 <div class="col-1  border">17%</div>
-                            </did>
+                            </div>
 
                         </div>
                     </div>
-                <did class="row">
+                <div class="row">
                     <div class="col-12 border bg-primary"></div>
                         <p>La Misión de Observación Electoral – MOE solicita las bases de datos oficiales de los
                             resultados electorales (escrutinios) producidas por la Registraduría Nacional del Estado
