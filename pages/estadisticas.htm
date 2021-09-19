@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>COLOMBIA ELIGE 2022</title>
 
     <!--Estilos aplicados-->
@@ -46,22 +47,22 @@
             <a class="nav-link" aria-current="page" href="../index.htm"><font size="4px">Candidatos</font></a>
         </li>
         <li class="nav-item">
-            <a class="nav-link active" href="../pages/estadisticas.htm"><font size="4px">Estadísticas</font></a>
+            <a class="nav-link" href="../pages/estadisticas.htm"><font size="4px">Estadísticas</font></a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="../pages/registro.htm"><font size="4px">Registro</font></a>
+            <a class="nav-link active" href=""><font size="4px">Registro</font></a>
         </li>
-        </ul><br/>
+        </ul>
 
     <body>
 
         <main class="container">
             <div class="row">
                <!--columna izquierda-->
-               <div class="col-12 col-lg-5 text-center">
-                    <h2>Mapa por departamentos</h2>
+               <div class="col-12 col-lg-5">
+                    <h2>Mapa Por Departamentos</h2>
                     
-                    <div class="col-12 text-center">
+                    <div class="col-12">
                         <div class="mapadiv">
                             <svg version="1.2" viewbox="0 0 1000 1195" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M10.5 640.1l0.2 0.9-0.6 0.5-0.4 0-0.8 0.7-0.4 0.1-0.3-0.3 0.5-0.8 0.5-0.3 0-0.6 0.4-0.2 0.9 0z" id="COL99" name="">
@@ -178,93 +179,105 @@
                </div>
 
                <!--columna derecha-->
-               <div class="col-12 col-lg-7">
-                    <br><br><h2>Estadísticas regionales
+               <div class="col-12 col-lg-7 ">
+                    <h2>Estadísticas regionales
                         <img src="../assets/img/icono-estadisticas.png" width="35" height="39" alt="Bandera" title="Colombia" />
                      </h2>
-                    <p style="text-align: justify;">El objetivo de la siguiente tabla es proporcionar un análisis cuantitativo de los resultados electorales 2022, tomando como insumo los votos por región sujetos a escrutinio.</p>
+                    <p>El objetivo de la siguiente tabla es proporcionar un análisis cuantitativo de los resultados electorales 2022, tomando como insumo los votos por región sujetos a escrutinio.</p>
                    
                     <div class="row">
                         <div class="col-12 col-lg-2 border bg-primary"></div>
-                            <div class="row">
-                                <div class="col-2  text-primary border">REGIÓN</div>
-                                <div class="col-2  border">FAJARDO</div>
-                                <div class="col-1  border">PETRO</div>
-                                <div class="col-2  border">FEDERICO</div>
-                                <div class="col-2  border">GAVIRIA</div>
-                                <div class="col-2  border">FRANCIA</div>
-                                <div class="col-1  border">IVÁN</div>
-                            </div>
+                            <table class="table">
+                                <thead class="thead-dark">
+                                    <tr>
+                                        <th scope="col">REGIÓN</th>
+                                        <th scope="col">GUTIÉRREZ</th>
+                                        <th scope="col">PETRO</th>
+                                        <th scope="col">FAJARDO</th>
+                                        <th scope="col">GAVIRIA</th>
+                                        <th scope="col">MÁRQUEZ</th>
+                                        <th scope="col">ZULUAGA</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <th scope="row">Caribe</th>
+                                        <td data-titulo="GUTIÉRREZ">16%</td>
+                                        <td data-titulo="PETRO">14%</td>
+                                        <td data-titulo="FAJARDO">19%</td>
+                                        <td data-titulo="GAVIRIA">19%</td>
+                                        <td data-titulo="MÁRQUEZ">19%</td>
+                                        <td data-titulo="ZULUAGA">19%</td>
+                                    </tr>
 
-                            <div class="row">
-                                <div class="col-2  text-primary border">Caribe</div>
-                                <div class="col-2  border">16%</div>
-                                <div class="col-1  border">14%</div>
-                                <div class="col-2  border">19%</div>
-                                <div class="col-2  border">16%</div>
-                                <div class="col-2  border">18%</div>
-                                <div class="col-1  border">17%</div>
-                            </div>
+                                    <tr>
+                                        <th scope="row">Andina</th>
+                                        <td data-titulo="GUTIÉRREZ">16%</td>
+                                        <td data-titulo="PETRO">14%</td>
+                                        <td data-titulo="FAJARDO"19%</td>
+                                        <td data-titulo="GAVIRIA">19%</td>
+                                        <td data-titulo="MÁRQUEZ">19%</td>
+                                        <td data-titulo="ZULUAGA">19%</td>
+                                    </tr>
 
-                            <div class="row">
-                                <div class="col-2  text-primary border">Andina</div>
-                                <div class="col-2  border">16%</div>
-                                <div class="col-1  border">14%</div>
-                                <div class="col-2  border">19%</div>
-                                <div class="col-2  border">16%</div>
-                                <div class="col-2  border">18%</div>
-                                <div class="col-1  border">17%</div>
-                            </div>
+                                    <tr>
+                                        <th scope="row">Pacífico</th>
+                                        <td data-titulo="GUTIÉRREZ">16%</td>
+                                        <td data-titulo="PETRO">14%</td>
+                                        <td data-titulo="FAJARDO">19%</td>
+                                        <td data-titulo="GAVIRIA">19%</td>
+                                        <td data-titulo="MÁRQUEZ">19%</td>
+                                        <td data-titulo="ZULUAGA">19%</td>
+                                    </tr>
 
-                            <div class="row">
-                                <div class="col-2  text-primary border">Pacífico</div>
-                                <div class="col-2  border">16%</div>
-                                <div class="col-1  border">14%</div>
-                                <div class="col-2  border">19%</div>
-                                <div class="col-2  border">16%</div>
-                                <div class="col-2  border">18%</div>
-                                <div class="col-1  border">17%</div>
-                            </div>
+                                    <tr>
+                                        <th scope="row">Orinoquía</th>
+                                        <td data-titulo="GUTIÉRREZ">16%</td>
+                                        <td data-titulo="PETRO">14%</td>
+                                        <td data-titulo="FAJARDO">19%</td>
+                                        <td data-titulo="GAVIRIA">19%</td>
+                                        <td data-titulo="MÁRQUEZ">19%</td>
+                                        <td data-titulo="ZULUAGA">19%</td>
+                                    </tr>
 
-                            <div class="row">
-                                <div class="col-2  text-primary border">Orinoquía</div>
-                                <div class="col-2  border">16%</div>
-                                <div class="col-1  border">14%</div>
-                                <div class="col-2  border">19%</div>
-                                <div class="col-2  border">16%</div>
-                                <div class="col-2  border">18%</div>
-                                <div class="col-1  border">17%</div>
-                            </div>
+                                    <tr>
+                                        <th scope="row">Amazonía</th>
+                                        <td data-titulo="GUTIÉRREZ">19%</td>
+                                        <td data-titulo="PETRO">14%</td>
+                                        <td data-titulo="FAJARDO">19%</td>
+                                        <td data-titulo="GAVIRIA">19%</td>
+                                        <td data-titulo="MÁRQUEZ">19%</td>
+                                        <td data-titulo="ZULUAGA">19%</td>
+                                    </tr>
 
+                                    <tr>
+                                        <th scope="row">Insular</th>
+                                        <td data-titulo="GUTIÉRREZ">16%</td>
+                                        <td data-titulo="PETRO">14%</td>
+                                        <td data-titulo="FAJARDO">19%</td>
+                                        <td data-titulo="GAVIRIA">19%</td>
+                                        <td data-titulo="MÁRQUEZ">19%</td>
+                                        <td data-titulo="ZULUAGA">19%</td>
+                                    </tr>
+                                </tbody>
+                            </table>
                             <div class="row">
-                                <div class="col-2  text-primary border">Amazonía</div>
-                                <div class="col-2  border">16%</div>
-                                <div class="col-1  border">14%</div>
-                                <div class="col-2  border">19%</div>
-                                <div class="col-2  border">16%</div>
-                                <div class="col-2  border">18%</div>
-                                <div class="col-1  border">17%</div>
-                            </div>
+                                <div class="col-12 border bg-primary"></div>
+                                    <p style=”text-align: justify;”>La Misión de Observación Electoral – MOE solicita las bases de datos oficiales de los
+                                        resultados electorales (escrutinios) producidas por la Registraduría Nacional del Estado
+                                        Civil, con el fin de procesarlas y producir análisis sobre los resultados electorales,
+                                        además de convertir los datos a formatos procesables y compartirlos para la consulta de
+                                        la ciudadanía y la academia.</p>
 
-                            <div class="row">
-                                <div class="col-2  text-primary border">Insular</div>
-                                <div class="col-2  border">16%</div>
-                                <div class="col-1  border">14%</div>
-                                <div class="col-2  border">19%</div>
-                                <div class="col-2  border">16%</div>
-                                <div class="col-2  border">18%</div>
-                                <div class="col-1  border">17%</div>
-                                <p style="text-align: justify;"><br>La Misión de Observación Electoral – MOE solicita las bases de datos oficiales de los
-                                    resultados electorales (escrutinios) producidas por la Registraduría Nacional del Estado
-                                    Civil, con el fin de procesarlas y producir análisis sobre los resultados electorales,
-                                    además de convertir los datos a formatos procesables y compartirlos para la consulta de
-                                    la ciudadanía y la academia.</p>
-                            </div>
-
+                            
+                        
+                         
                         </div>
+                    
                     </div>
+               
 
-            
+            </div>
         </main> 
         
     </body>
