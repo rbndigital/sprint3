@@ -27,7 +27,6 @@
     -moz-box-shadow:0px 4px 20px -5px rgba(0,0,0,0.75);
     box-shadow:0px 4px 20px -5px rgba(0,0,0,0.75)
   }
-
   .mapadiv{
     width: 25%;
     margin-right: 0%;
@@ -43,3 +42,4 @@
     fill: #800000;
     
   }
+
