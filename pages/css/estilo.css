@@ -40,6 +40,34 @@
 
   .mapadiv :hover{
     fill: #800000;
-    
   }
 
+  .table{
+    border-collapse: collapse;
+  }
+
+  th, td {
+    padding: 10px 10px;
+  }
+
+@media (max-width: 30em) { /*30x16px=480px*/
+  table{
+    width: 100%;
+  }
+  table tr{
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+  }
+  table td [data-titulo]{
+    display: flex;
+  }
+  table td[data-titulo]::before{
+    content: attr(data-titulo);
+    width: 80px;
+    font-weight: bold;
+  }
+  table thead{
+    display: none;
+  }
+}
