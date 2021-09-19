@@ -67,6 +67,9 @@
     width: 80px;
     font-weight: bold;
   }
+  table th{
+    fill: #800000;
+  }
   table thead{
     display: none;
   }
