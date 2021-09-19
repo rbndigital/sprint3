@@ -27,3 +27,19 @@
     -moz-box-shadow:0px 4px 20px -5px rgba(0,0,0,0.75);
     box-shadow:0px 4px 20px -5px rgba(0,0,0,0.75)
   }
+
+  .mapadiv{
+    width: 25%;
+    margin-right: 0%;
+  }
+
+  .mapadiv path{
+    fill: #F0E68C;
+    stroke: #8B4513;
+    stroke-width: 2PX;
+  }
+
+  .mapadiv :hover{
+    fill: #800000;
+    
+  }
