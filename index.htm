@@ -22,15 +22,43 @@
     padding: 8px;
     font-family: Arial, Helvetica, sans-serif;
   }
-  
+  .Contenedor {
+    width: 100%;
+    max-width:2000px;
+    margin:0 auto;
+    overflow: hidden;
+   
+  }
+  .bannerText2 {
+    align-self: center;
+    width: 900px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    text-shadow: rgb(83, 83, 83) 2px 2px 2px;
+    font-size: 18px;
+    text-align: center;
+    width: 65%;
+}
+
+@media screen and (max-width:800px){
+  body{
+
+  }
+}
+
+
+
   </style>
 <body>
-    <div class="banner"></div>
+  <div class="Contenedor">  
+    <div class="Contenedor banner"></div>
     <div>
         <header><br><br>
                 <p class="bannerText">
                     &nbsp;¡Colombia Elige 2022!
                     <img src="assets/img/bandera.png" width="65" height="65" alt="Bandera" title="Colombia" />
+ 
+
                 </p>
                 <center><p class="bannerText2"><strong>
                     En éste espacio podrá informarse sobre la participación e impacto territorial de los candidatos en las próximas elecciones presidenciales en Colombia en el 2022.</strong>
@@ -42,9 +70,9 @@
 
    
         
-            
+             
 
-            <ul class="nav nav-pills justify-content-center">
+            <ul class="Contenedor nav nav-pills justify-content-center">
             <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="#"><font size="4px">Candidatos</font></a>
             </li>
@@ -61,61 +89,37 @@
 
     <br>
         <section>
-
-
             <div class="container">
                 <div class="row justify-content-md-center" >
                   <div class="col-3 text-center">
-                    &nbsp;&nbsp;&nbsp;<a href="pages/gutierrez.htm"><img src="assets/img/candidato 3.jpg" width="250px" height="250px" class="sobreinicio"></a>&nbsp;&nbsp;&nbsp;
-                  </div>
-                  <div class="col-3 text-center">
-                    &nbsp;&nbsp;&nbsp;<a href="pages/petro.htm"><img src="assets/img/candidato 2.jpg" width="250px" height="250px" class="sobreinicio"></a>&nbsp;&nbsp;&nbsp;
-                  </div>
-                  <div class="col-3 text-center">
-                    &nbsp;&nbsp;&nbsp;<a href="pages/fajardo.htm"><img src="assets/img/candidato 1.jpg" width="250px" height="250px" class="sobreinicio"></a>&nbsp;&nbsp;&nbsp;
-                  </div>
-                </div>
-              </div>
-
-
-              <div class="container">
-                <div class="row justify-content-md-center">
-                  <div class="col-3 text-center">
+                    <a href="pages/gutierrez.htm"><img src="assets/img/candidato 3.jpg" width="250px" height="250px" class="sobreinicio"></a>
                     <strong>FEDERICO GUTIÉRREZ</strong>
+                    <br/>Creemos Colombia
                   </div>
                   <div class="col-3 text-center">
+                    <a href="pages/petro.htm"><img src="assets/img/candidato 2.jpg" width="250px" height="250px" class="sobreinicio"></a>
                     <strong>GUSTAVO PETRO</strong>
+                    <br/>Colombia Humana
                   </div>
                   <div class="col-3 text-center">
+                    <a href="pages/fajardo.htm"><img src="assets/img/candidato 1.jpg" width="250px" height="250px" class="sobreinicio"></a>
                     <strong>SERGIO FAJARDO</strong>
+                    <br/>Compromiso ciudadano
                   </div>
                 </div>
               </div>
 
-              <div class="container">
-                <div class="row justify-content-md-center">
-                  <div class="col-3 text-center">
-                    Creemos Colombia
-                  </div>
-                  <div class="col-3 text-center">
-                    Colombia Humana
-                  </div>
-                  <div class="col-3 text-center">
-                    Compromiso ciudadano
-                  </div>
-                </div>
-              </div>
               <br/><br/>
               <div class="container">
                 <div class="row justify-content-md-center">
                   <div class="col-3 text-center">
-                    &nbsp;&nbsp;&nbsp;<a href="pages/gaviria.htm"><img src="assets/img/candidato 4.jpg" width="250px" height="250px" class="sobreinicio"></a>&nbsp;&nbsp;&nbsp;
+                    <a href="pages/gaviria.htm"><img src="assets/img/candidato 4.jpg" width="250px" height="250px" class="sobreinicio"></a>
                   </div>
                   <div class="col-3 text-center">
-                    &nbsp;&nbsp;&nbsp;<a href="pages/marquez.htm"><img src="assets/img/candidato 5.jpg" width="250px" height="250px" class="sobreinicio"></a>&nbsp;&nbsp;&nbsp;
+                   <a href="pages/marquez.htm"><img src="assets/img/candidato 5.jpg" width="250px" height="250px" class="sobreinicio"></a>
                   </div>
                   <div class="col-3 text-center">
-                    &nbsp;&nbsp;&nbsp;<a href="pages/zuluaga.htm"><img src="assets/img/candidato 6.jpg" width="250px" height="250px" class="sobreinicio"></a>&nbsp;&nbsp;&nbsp;
+                    <a href="pages/zuluaga.htm"><img src="assets/img/candidato 6.jpg" width="250px" height="250px" class="sobreinicio"></a>
                   </div>
                 </div>
               </div>
@@ -123,13 +127,13 @@
               <div class="container">
                 <div class="row justify-content-md-center">
                   <div class="col-3 text-center">
-                    <strong>&nbsp;ALEJANDRO GAVIRIA&nbsp;</strong>
+                    <strong>ALEJANDRO GAVIRIA</strong>
                   </div>
                   <div class="col-3 text-center">
-                    <strong>&nbsp;FRANCIA MÁRQUEZ&nbsp;</strong>
+                    <strong>FRANCIA MÁRQUEZ</strong>
                   </div>
                   <div class="col-3 text-center">
-                    <strong>&nbsp;ÓSCAR IVÁN ZULUAGA&nbsp;</strong>
+                    <strong>ÓSCAR IVÁN ZULUAGA</strong>
                   </div>
                 </div>
               </div>
@@ -149,6 +153,6 @@
               </div><br/><br/>
 
         </section>
-  
+    </div>
 </body>
 </html>
