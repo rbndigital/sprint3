@@ -4,8 +4,8 @@ function Iniciar(){
   $.ajax({
     url: 'mapa.html',
     cache: false,
-    success: function(htm){
-      $('#mapa').html(htm)
+    success: function(datosMap){ //si responde 200
+      $('#mapa').html(datosMap)
     }
   });
 }
