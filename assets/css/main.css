@@ -31,3 +31,23 @@ body {
   text-align: center;
   width: 65%;
 }
+
+.mapadiv path{
+  stroke-width: 0;
+}
+
+#COL1404, #COL1406, #COL1415, #COL1408{
+  fill: aqua;
+}
+#COL1425, #COL1427, #COL1422, #COL1420{
+  fill: rgb(7, 211, 0);
+}
+#COL1404, #COL1406, #COL1415, #COL1408{
+  fill: aqua;
+}
+#COL1404, #COL1406, #COL1415, #COL1408{
+  fill: aqua;
+}
+#COL1404, #COL1406, #COL1415, #COL1408{
+  fill: aqua;
+}
