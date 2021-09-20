@@ -35,19 +35,51 @@ body {
 .mapadiv path{
   stroke-width: 0;
 }
-
-#COL1404, #COL1406, #COL1415, #COL1408{
-  fill: aqua;
+/*Pacífica*/
+#COL1404, 
+#COL1406, 
+#COL1415, 
+#COL1408{
+  fill: #FF7400;
 }
-#COL1425, #COL1427, #COL1422, #COL1420{
-  fill: rgb(7, 211, 0);
+/*Orinoquía*/
+#COL1425, 
+#COL1427, 
+#COL1422, 
+#COL1420{
+  fill: #FFF000;
 }
-#COL1404, #COL1406, #COL1415, #COL1408{
-  fill: aqua;
+/*Andina*/
+#COL1421,
+#COL1405,
+#COL1402,
+#COL1401,
+#COL1398,
+#COL1397,
+#COL1317,
+#COL1315,
+#COL1314,
+#COL1400,
+#COL1399{
+  fill: #00C1FF;
 }
-#COL1404, #COL1406, #COL1415, #COL1408{
-  fill: aqua;
+/*Caribe*/
+#COL1316,
+#COL1318,
+#COL1412,
+#COL1413,
+#COL1414,
+#COL1416,
+#COL1417{
+  fill: #FF0000;
 }
-#COL1404, #COL1406, #COL1415, #COL1408{
-  fill: aqua;
+/*Amazonía*/
+#COL1283,
+#COL1403,
+#COL1407,
+#COL1424,
+#COL1426,
+#COL1423
+{
+  fill: #00F10B;
 }
