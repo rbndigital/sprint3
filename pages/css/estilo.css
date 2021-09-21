@@ -1,3 +1,5 @@
+
+
 .sobre{
     padding:15px;
     border-radius: 1em;
@@ -35,8 +37,8 @@
   }
 
   .mapadiv path{
-    fill: #F0E68C;
-    stroke: #8B4513;
+    fill: #ffffff;
+    stroke: #575757;
     stroke-width: 2PX;
   }
 
@@ -47,3 +49,69 @@
   section {
     padding-top: 10px;
   }
+
+/*colores por regiones*/
+/*-----------------------------------------------------------------------------------------------------------*/
+/*Pacífica*/
+#COL1404, #COL1406, #COL1415, #COL1408{
+  fill: #FF7400;
+}
+/*Pacífica-hover*/
+#COL1404:hover, #COL1406:hover, #COL1415:hover, #COL1408:hover{
+  fill: #ff5100;
+}
+/*-----------------------------------------------------------------------------------------------------------*/
+/*Orinoquía*/
+#COL1425, #COL1427, #COL1422, #COL1420{
+  fill: #FFF000;
+}
+/*Orinoquía-hover*/
+#COL1425:hover, #COL1427:hover, #COL1422:hover, #COL1420:hover{
+  fill: #ffd900;
+}
+/*-----------------------------------------------------------------------------------------------------------*/
+/*Andina*/
+#COL1421,#COL1405,#COL1402,#COL1401,#COL1398,#COL1397,#COL1317,#COL1315,#COL1314,#COL1400,#COL1399{
+  fill: #00C1FF;
+}
+/*Andina-hover*/
+#COL1421:hover,#COL1405:hover,#COL1402:hover,#COL1401:hover,#COL1398:hover,#COL1397:hover,#COL1317:hover,#COL1315:hover,#COL1314:hover,#COL1400:hover,#COL1399:hover{
+  fill: #0084ff;
+}
+/*-----------------------------------------------------------------------------------------------------------*/
+/*Caribe*/
+#COL1316,#COL1318,#COL1412,#COL1413,#COL1414,#COL1416,#COL1417{
+  fill: #FF0000;
+}
+/*Caribe-hover*/
+#COL1316:hover,#COL1318:hover,#COL1412:hover,#COL1413:hover,#COL1414:hover,#COL1416:hover,#COL1417:hover{
+  fill: #950000;
+}
+/*-----------------------------------------------------------------------------------------------------------*/
+/*Amazonía*/
+#COL1283,#COL1403,#COL1407,#COL1424,#COL1426,#COL1423{
+  fill: #00F10B;
+}
+/*Amazonía-hover*/
+#COL1283:hover,#COL1403:hover,#COL1407:hover,#COL1424:hover,#COL1426:hover,#COL1423:hover{
+  fill: #007206;
+}
+
+.color1{
+  background-color: #fc22228f;
+}
+.color2{
+  background-color: #00bfff65;
+}
+.color3{
+  background-color: #ff5e005e;
+}
+.color4{
+  background-color: #ffd00063;
+}
+.color5{
+  background-color: #2ad10060;
+}
+.color6{
+  background-color: #8622f863;
+}
