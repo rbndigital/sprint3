@@ -65,112 +65,109 @@
 
         <main class="container">
             <div class="row">
-               <!--columna izquierda-->
-               <div class="col-12 col-log 9 text-center">
-                    <h2>Mapa por regiones</h2>
-                    
-                    <div id="mapa"></div><!--llamado a mapa por ajax-->
-                    
-               </div>
-
-               <!--columna derecha-->
-               <div class="col-12 col-log 7 text-center">
-                    <h2>Estadísticas regionales
-                        <img src="../assets/img/icono-estadisticas.png" width="35" height="39" alt="Bandera" title="Colombia" />
-                     </h2>
-                    <p style="text-align: justify;">El objetivo de la siguiente tabla es proporcionar un análisis cuantitativo de los resultados electorales 2022, tomando como insumo los votos por región sujetos a escrutinio.</p>
-                   
+                <div class="col-10 offset-1">
                     <div class="row">
-                        <div class="col-12 col-lg-2 border bg-primary"></div>
-                            <table class="table">
-                                <thead class="thead-dark">
-                                    <tr>
-                                        <th scope="col">REGIÓN</th>
-                                        <th scope="col">GUTIÉRREZ</th>
-                                        <th scope="col">PETRO</th>
-                                        <th scope="col">FAJARDO</th>
-                                        <th scope="col">GAVIRIA</th>
-                                        <th scope="col">MÁRQUEZ</th>
-                                        <th scope="col">ZULUAGA</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr class="color1">
-                                        <th scope="row">Caribe</th>
-                                        <td data-titulo="GUTIÉRREZ">16%</td>
-                                        <td data-titulo="PETRO">14%</td>
-                                        <td data-titulo="FAJARDO">19%</td>
-                                        <td data-titulo="GAVIRIA">19%</td>
-                                        <td data-titulo="MÁRQUEZ">19%</td>
-                                        <td data-titulo="ZULUAGA">19%</td>
-                                    </tr>
-
-                                    <tr class="color2">
-                                        <th scope="row">Andina</th>
-                                        <td data-titulo="GUTIÉRREZ">16%</td>
-                                        <td data-titulo="PETRO">14%</td>
-                                        <td data-titulo="FAJARDO">19%</td>
-                                        <td data-titulo="GAVIRIA">19%</td>
-                                        <td data-titulo="MÁRQUEZ">19%</td>
-                                        <td data-titulo="ZULUAGA">19%</td>
-                                    </tr>
-
-                                    <tr class="color3">
-                                        <th scope="row">Pacífico</th>
-                                        <td data-titulo="GUTIÉRREZ">16%</td>
-                                        <td data-titulo="PETRO">14%</td>
-                                        <td data-titulo="FAJARDO">19%</td>
-                                        <td data-titulo="GAVIRIA">19%</td>
-                                        <td data-titulo="MÁRQUEZ">19%</td>
-                                        <td data-titulo="ZULUAGA">19%</td>
-                                    </tr>
-
-                                    <tr class="color4">
-                                        <th scope="row">Orinoquía</th>
-                                        <td data-titulo="GUTIÉRREZ">16%</td>
-                                        <td data-titulo="PETRO">14%</td>
-                                        <td data-titulo="FAJARDO">19%</td>
-                                        <td data-titulo="GAVIRIA">19%</td>
-                                        <td data-titulo="MÁRQUEZ">19%</td>
-                                        <td data-titulo="ZULUAGA">19%</td>
-                                    </tr>
-
-                                    <tr class="color5">
-                                        <th scope="row">Amazonía</th>
-                                        <td data-titulo="GUTIÉRREZ">19%</td>
-                                        <td data-titulo="PETRO">14%</td>
-                                        <td data-titulo="FAJARDO">19%</td>
-                                        <td data-titulo="GAVIRIA">19%</td>
-                                        <td data-titulo="MÁRQUEZ">19%</td>
-                                        <td data-titulo="ZULUAGA">19%</td>
-                                    </tr>
-
-                                    <tr class="color6">
-                                        <th scope="row">Insular</th>
-                                        <td data-titulo="GUTIÉRREZ">16%</td>
-                                        <td data-titulo="PETRO">14%</td>
-                                        <td data-titulo="FAJARDO">19%</td>
-                                        <td data-titulo="GAVIRIA">19%</td>
-                                        <td data-titulo="MÁRQUEZ">19%</td>
-                                        <td data-titulo="ZULUAGA">19%</td>
-                                    </tr>
-                                </tbody>
-                                
-                            </table>
-                            <p style="text-align: justify;">La Misión de Observación Electoral – MOE solicita las bases de datos oficiales de los
-                                resultados electorales (escrutinios) producidas por la Registraduría Nacional del Estado
-                                Civil, con el fin de procesarlas y producir análisis sobre los resultados electorales,
-                                además de convertir los datos a formatos procesables y compartirlos para la consulta de
-                                la ciudadanía y la academia.</p>
-        
-                            
-                        
-                         
+                       <!--columna izquierda-->
+                       <div class="col-lg-4 col-md-6 col-sm-12 text-center">
+                            <h2>Mapa por regiones</h2>
+                
+                            <div id="mapa"></div><!--llamado a mapa por ajax-->
+                
+                       </div>
+                       <!--columna derecha-->
+                       <div class="col-lg-8 col-md-6 col-sm-12 text-center">
+                            <h2>Estadísticas regionales
+                                <img src="../assets/img/icono-estadisticas.png" width="35" height="39" alt="Bandera" title="Colombia" />
+                             </h2>
+                            <p style="text-align: justify;">El objetivo de la siguiente tabla es proporcionar un análisis cuantitativo de los resultados electorales 2022, tomando como insumo los votos por región sujetos a escrutinio.</p>
+                
+                            <div class="row">
+                                <div class="col-12 col-lg-2 border bg-primary"></div>
+                                    <table class="table">
+                                        <thead class="thead-dark">
+                                            <tr>
+                                                <th scope="col">REGIÓN</th>
+                                                <th scope="col">GUTIÉRREZ</th>
+                                                <th scope="col">PETRO</th>
+                                                <th scope="col">FAJARDO</th>
+                                                <th scope="col">GAVIRIA</th>
+                                                <th scope="col">MÁRQUEZ</th>
+                                                <th scope="col">ZULUAGA</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr class="color1">
+                                                <th scope="row">Caribe</th>
+                                                <td data-titulo="GUTIÉRREZ">16%</td>
+                                                <td data-titulo="PETRO">14%</td>
+                                                <td data-titulo="FAJARDO">19%</td>
+                                                <td data-titulo="GAVIRIA">19%</td>
+                                                <td data-titulo="MÁRQUEZ">19%</td>
+                                                <td data-titulo="ZULUAGA">19%</td>
+                                            </tr>
+                                            <tr class="color2">
+                                                <th scope="row">Andina</th>
+                                                <td data-titulo="GUTIÉRREZ">16%</td>
+                                                <td data-titulo="PETRO">14%</td>
+                                                <td data-titulo="FAJARDO">19%</td>
+                                                <td data-titulo="GAVIRIA">19%</td>
+                                                <td data-titulo="MÁRQUEZ">19%</td>
+                                                <td data-titulo="ZULUAGA">19%</td>
+                                            </tr>
+                                            <tr class="color3">
+                                                <th scope="row">Pacífico</th>
+                                                <td data-titulo="GUTIÉRREZ">16%</td>
+                                                <td data-titulo="PETRO">14%</td>
+                                                <td data-titulo="FAJARDO">19%</td>
+                                                <td data-titulo="GAVIRIA">19%</td>
+                                                <td data-titulo="MÁRQUEZ">19%</td>
+                                                <td data-titulo="ZULUAGA">19%</td>
+                                            </tr>
+                                            <tr class="color4">
+                                                <th scope="row">Orinoquía</th>
+                                                <td data-titulo="GUTIÉRREZ">16%</td>
+                                                <td data-titulo="PETRO">14%</td>
+                                                <td data-titulo="FAJARDO">19%</td>
+                                                <td data-titulo="GAVIRIA">19%</td>
+                                                <td data-titulo="MÁRQUEZ">19%</td>
+                                                <td data-titulo="ZULUAGA">19%</td>
+                                            </tr>
+                                            <tr class="color5">
+                                                <th scope="row">Amazonía</th>
+                                                <td data-titulo="GUTIÉRREZ">19%</td>
+                                                <td data-titulo="PETRO">14%</td>
+                                                <td data-titulo="FAJARDO">19%</td>
+                                                <td data-titulo="GAVIRIA">19%</td>
+                                                <td data-titulo="MÁRQUEZ">19%</td>
+                                                <td data-titulo="ZULUAGA">19%</td>
+                                            </tr>
+                                            <tr class="color6">
+                                                <th scope="row">Insular</th>
+                                                <td data-titulo="GUTIÉRREZ">16%</td>
+                                                <td data-titulo="PETRO">14%</td>
+                                                <td data-titulo="FAJARDO">19%</td>
+                                                <td data-titulo="GAVIRIA">19%</td>
+                                                <td data-titulo="MÁRQUEZ">19%</td>
+                                                <td data-titulo="ZULUAGA">19%</td>
+                                            </tr>
+                                        </tbody>
+                
+                                    </table>
+                                    <p style="text-align: justify;">La Misión de Observación Electoral – MOE solicita las bases de datos oficiales de los
+                                        resultados electorales (escrutinios) producidas por la Registraduría Nacional del Estado
+                                        Civil, con el fin de procesarlas y producir análisis sobre los resultados electorales,
+                                        además de convertir los datos a formatos procesables y compartirlos para la consulta de
+                                        la ciudadanía y la academia.</p>
+                
+                
+                
+                                </div>
+                            </div>
+                
                         </div>
-                    
+                
                     </div>
-               
-
+                </div>
             </div>
         </main> 
 
