@@ -157,4 +157,8 @@ td, th {
     color: grey;
     font-weight: bold;
   }
+
+  .bannerText{
+    font-size: calc(3em + 1vw)
+  }
 }
