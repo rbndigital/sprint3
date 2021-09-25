@@ -19,7 +19,21 @@ function votar(opcion)
             estCand4 = (voto[3]/total)*100;
             estCand5 = (voto[4]/total)*100;
             estCand6 = (voto[5]/total)*100;
-            alert("El candidato 1 obtuvo "+voto[0]+"("+estCand1+"%) votos\nEl candidato 2 obtuvo "+voto[1]+"("+estCand2+"%) votos\nEl candidato 3 obtuvo "+voto[2]+"("+estCand3+"%) votos\nEl candidato 4 obtuvo "+voto[3]+"("+estCand4+"%) votos\nEl candidato 5 obtuvo "+voto[4]+"("+estCand5+"%) votos\nEl candidato 6 obtuvo "+voto[5]+"("+estCand6+"%) votos");
+            alert("El candidato 1 obtuvo "+voto[0]+"("+estCand1.toFixed(2)+"%) votos\nEl candidato 2 obtuvo "+voto[1]+"("+estCand2.toFixed(2)+"%) votos\nEl candidato 3 obtuvo "+voto[2]+"("+estCand3.toFixed(2)+"%) votos\nEl candidato 4 obtuvo "+voto[3]+"("+estCand4.toFixed(2)+"%) votos\nEl candidato 5 obtuvo "+voto[4]+"("+estCand5.toFixed(2)+"%) votos\nEl candidato 6 obtuvo "+voto[5]+"("+estCand6.toFixed(2)+"%) votos");
+
+            document.getElementById('lbResultado1').innerHTML = (estCand1.toFixed(2))+" %";
+            document.getElementById('lbResultado2').innerHTML = (estCand2.toFixed(2))+" %";
+            document.getElementById('lbResultado3').innerHTML = (estCand3.toFixed(2))+" %";
+            document.getElementById('lbResultado4').innerHTML = (estCand4.toFixed(2))+" %";
+            document.getElementById('lbResultado5').innerHTML = (estCand5.toFixed(2))+" %";
+            document.getElementById('lbResultado6').innerHTML = (estCand6.toFixed(2))+" %";
+            $('#bar0').css('width', estCand1.toFixed(2) + '%');
+            $('#bar1').css('width', estCand2.toFixed(2) + '%');
+            $('#bar2').css('width', estCand3.toFixed(2) + '%');
+            $('#bar3').css('width', estCand4.toFixed(2) + '%');
+            $('#bar4').css('width', estCand5.toFixed(2) + '%');
+            $('#bar5').css('width', estCand6.toFixed(2) + '%');
+
             break;
         }
         case 1:
@@ -59,3 +73,15 @@ function votar(opcion)
         }                   
     }
 }
+
+/* var progreso = 0;
+var idIterval = setInterval(function(){
+  // Aumento en 10 el progeso
+  progreso +=10;
+  $('#bar0').css('width', progreso + '%');
+ 
+//Si llegó a 100 elimino el interval
+  if(progreso == 100){
+ clearInterval(idIterval);
+}
+},1000); */
