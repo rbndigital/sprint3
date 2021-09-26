@@ -22,7 +22,7 @@ function votar(opcion)
             estCand5 = (voto[4]/total)*100;
             estCand6 = (voto[5]/total)*100;
             /* alert("El candidato 1 obtuvo "+voto[0]+"("+estCand1.toFixed(2)+"%) votos\nEl candidato 2 obtuvo "+voto[1]+"("+estCand2.toFixed(2)+"%) votos\nEl candidato 3 obtuvo "+voto[2]+"("+estCand3.toFixed(2)+"%) votos\nEl candidato 4 obtuvo "+voto[3]+"("+estCand4.toFixed(2)+"%) votos\nEl candidato 5 obtuvo "+voto[4]+"("+estCand5.toFixed(2)+"%) votos\nEl candidato 6 obtuvo "+voto[5]+"("+estCand6.toFixed(2)+"%) votos"); */
-            
+            swal("¡Votación finalizada!", "¡Tu votación se ha registrado correctamente!", "success");
 
             document.getElementById('lbResultado1').innerHTML = (estCand1.toFixed(2))+" %";
             document.getElementById('lbResultado2').innerHTML = (estCand2.toFixed(2))+" %";
