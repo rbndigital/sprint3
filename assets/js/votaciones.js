@@ -7,6 +7,7 @@ voto[4] = 0;
 voto[5] = 0;
 voto[6] = 0;
 voto[7] = 0;
+
 function votar(opcion)
 {
     switch (opcion)
@@ -20,7 +21,8 @@ function votar(opcion)
             estCand4 = (voto[3]/total)*100;
             estCand5 = (voto[4]/total)*100;
             estCand6 = (voto[5]/total)*100;
-            alert("El candidato 1 obtuvo "+voto[0]+"("+estCand1.toFixed(2)+"%) votos\nEl candidato 2 obtuvo "+voto[1]+"("+estCand2.toFixed(2)+"%) votos\nEl candidato 3 obtuvo "+voto[2]+"("+estCand3.toFixed(2)+"%) votos\nEl candidato 4 obtuvo "+voto[3]+"("+estCand4.toFixed(2)+"%) votos\nEl candidato 5 obtuvo "+voto[4]+"("+estCand5.toFixed(2)+"%) votos\nEl candidato 6 obtuvo "+voto[5]+"("+estCand6.toFixed(2)+"%) votos");
+            /* alert("El candidato 1 obtuvo "+voto[0]+"("+estCand1.toFixed(2)+"%) votos\nEl candidato 2 obtuvo "+voto[1]+"("+estCand2.toFixed(2)+"%) votos\nEl candidato 3 obtuvo "+voto[2]+"("+estCand3.toFixed(2)+"%) votos\nEl candidato 4 obtuvo "+voto[3]+"("+estCand4.toFixed(2)+"%) votos\nEl candidato 5 obtuvo "+voto[4]+"("+estCand5.toFixed(2)+"%) votos\nEl candidato 6 obtuvo "+voto[5]+"("+estCand6.toFixed(2)+"%) votos"); */
+            
 
             document.getElementById('lbResultado1').innerHTML = (estCand1.toFixed(2))+" %";
             document.getElementById('lbResultado2').innerHTML = (estCand2.toFixed(2))+" %";
@@ -82,12 +84,14 @@ function votar(opcion)
             voto[5] = 0;
             voto[6] = 0;
             voto[7] = 0;
+
             $('#bar0').css('width', 0);
             $('#bar1').css('width', 0);
             $('#bar2').css('width', 0);
             $('#bar3').css('width', 0);
             $('#bar4').css('width', 0);
-            $('#bar5').css('width', 0);            
+            $('#bar5').css('width', 0);     
+
             break;
             
         }                       
