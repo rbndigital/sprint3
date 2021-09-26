@@ -1,4 +1,4 @@
-var voto = new Array(6);
+var voto = new Array(7);
 voto[0] = 0;
 voto[1] = 0;
 voto[2] = 0;
@@ -6,6 +6,7 @@ voto[3] = 0;
 voto[4] = 0;
 voto[5] = 0;
 voto[6] = 0;
+voto[7] = 0;
 function votar(opcion)
 {
     switch (opcion)
@@ -70,18 +71,25 @@ function votar(opcion)
         {
             voto[6] = voto[6] + 1;
             break;
-        }                   
+        }      
+        case 8:
+        {
+            voto[0] = 0;
+            voto[1] = 0;
+            voto[2] = 0;
+            voto[3] = 0;
+            voto[4] = 0;
+            voto[5] = 0;
+            voto[6] = 0;
+            voto[7] = 0;
+            $('#bar0').css('width', 0);
+            $('#bar1').css('width', 0);
+            $('#bar2').css('width', 0);
+            $('#bar3').css('width', 0);
+            $('#bar4').css('width', 0);
+            $('#bar5').css('width', 0);            
+            break;
+            
+        }                       
     }
 }
-
-/* var progreso = 0;
-var idIterval = setInterval(function(){
-  // Aumento en 10 el progeso
-  progreso +=10;
-  $('#bar0').css('width', progreso + '%');
- 
-//Si llegó a 100 elimino el interval
-  if(progreso == 100){
- clearInterval(idIterval);
-}
-},1000); */
