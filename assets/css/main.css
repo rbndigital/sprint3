@@ -58,10 +58,10 @@ img {
 
 
 footer {
-  padding: 10px;
+  padding: 100px;
   background-image: url(../img/footer.jpg);
   background-size: cover;
-  height:55px;
+  height:205px;
   font-family: 'Montserrat', sans-serif;
   color: rgb(0, 15, 77);
   
@@ -69,4 +69,5 @@ footer {
 
 .sociales{
   color: rgb(0, 15, 77);
+  float: right;
 }
